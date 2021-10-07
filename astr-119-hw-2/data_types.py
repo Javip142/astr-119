@@ -1,0 +1,23 @@
+import numpy as np 			#import numpy library
+
+#integers
+# Review the bracket functionality 
+
+i = 10  		#integer
+print(type(i))	#print out the data of i
+
+a_i = np.zeros(i,dtype=int)	#declare an array of ints
+print(type(a_i))			#will return ndarray 
+print(type(a_i[0]))			#will return int64
+
+#floats
+
+x = 119.0 		#floating point number
+print(type(x))	#print out the data type of x 
+
+y = 1.19e2		#float 119 in scientific notation
+print(type(y))	#print out the data type of y
+
+z = np.zeros(i,dtype=float)	#delcare array of floats,(look back at float term) 
+print(type(z))				#will return nd array
+print(type(z[0]))			#will return floart 64
